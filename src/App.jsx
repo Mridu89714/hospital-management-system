@@ -7,6 +7,7 @@ import DoctorDashboard from "./pages/DoctorDashboard";
 import PatientDashboard from "./pages/PatientDashboard";
 import Doctors from "./pages/Doctors";
 import Departments from "./pages/Departments";
+import Patients from "./pages/Patients";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/patient" element={<PatientDashboard />} />
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/departments" element={<Departments />} />
+        <Route path="/patients" element={<Patients />} />
       </Routes>
     </BrowserRouter>
   );

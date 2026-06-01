@@ -11,6 +11,7 @@ function Sidebar() {
     <Link to="/admin">Dashboard</Link>
   </li>
 
+
   <li>
     <Link to="/doctors">Doctors</Link>
   </li>
@@ -20,6 +21,9 @@ function Sidebar() {
     Departments
   </Link>
 </li>
+  <li>
+    <Link to="/patients">Patients</Link>
+  </li>
   <li>Appointments</li>
   <li>Billing</li>
 </ul>
