@@ -24,7 +24,11 @@ function Sidebar() {
   <li>
     <Link to="/patients">Patients</Link>
   </li>
-  <li>Appointments</li>
+  <li>
+  <Link to="/appointments">
+    Appointments
+  </Link>
+</li>
   <li>Billing</li>
 </ul>
     </div>
