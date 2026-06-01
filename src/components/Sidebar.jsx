@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Sidebar() {
   return (
     <div className="w-64 bg-blue-700 text-white min-h-screen p-5">
@@ -6,12 +7,18 @@ function Sidebar() {
       </h1>
 
       <ul className="space-y-4">
-        <li>Dashboard</li>
-        <li>Doctors</li>
-        <li>Patients</li>
-        <li>Appointments</li>
-        <li>Billing</li>
-      </ul>
+  <li>
+    <Link to="/admin">Dashboard</Link>
+  </li>
+
+  <li>
+    <Link to="/doctors">Doctors</Link>
+  </li>
+
+  <li>Patients</li>
+  <li>Appointments</li>
+  <li>Billing</li>
+</ul>
     </div>
   );
 }
